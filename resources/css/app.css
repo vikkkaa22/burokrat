@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+
+@theme {
+  --font-title: "EB Garamond", serif;
+  --font-main: "Raleway", sans-serif;
+  --breakpoint-3xl: 120rem;
+  --color-bg: #EFEDE8;
+  --color-white: #EFEDE8;
+  --color-gray: #3F3F3F;
+  --color-red: #83372A;
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+  /* ... */
+}
+
+
+h1 {
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+
