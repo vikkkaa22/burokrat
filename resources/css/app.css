@@ -16,18 +16,18 @@
 }
 
 
-.content{
-  /* display: grid;
-  grid-template-columns: max-content; */
+/* .content{
+  display: grid;
+  grid-template-columns: max-content;
   text-align: center;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .curtains{
   display: grid;
-  grid-template-columns:auto;
+  grid-template-columns:auto ;
   gap: 900px;
   
-}
+} */
 
 
