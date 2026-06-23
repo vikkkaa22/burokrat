@@ -16,11 +16,18 @@
 }
 
 
-h1 {
-    color: blue;
-    font-style: italic;
-    text-decoration: underline;
+.content{
+  /* display: grid;
+  grid-template-columns: max-content; */
+  text-align: center;
+  /* justify-content: center; */
 }
 
+.curtains{
+  display: grid;
+  grid-template-columns:auto;
+  gap: 900px;
+  
+}
 
 
