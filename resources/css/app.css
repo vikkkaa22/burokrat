@@ -25,10 +25,14 @@ h3 {
   padding-top: 29px;
 font-size: 24px;
   text-align: center;
+  color: #3F3F3F;
+
 }
 p{
   font-size: 24px;
   text-align: center;
+  color: #3F3F3F;
+
 }
 * {
     margin: 0;
@@ -65,12 +69,18 @@ p{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+
 }
 .event-card {
     border: 1px solid #83372A;
     background: none;
      width: 438px;
     height: 596px;
+    margin-bottom: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 /* .event-card:hover {
     transform: translateY(-5px);
@@ -79,9 +89,34 @@ p{
 .event-card img {
     width: 398px;
     height: 471px;
-    display: flex;
-    object-fit: cover;
-    object-position: center;
-    /* justify-content: center;
-    align-items: center; */
+    padding-top: 20px;
+}
+.btn_brn {
+  padding: 14px 40px;
+    background: #83372A;
+    color: #E7E5E0;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: .3s;
+    font-size: 20px;
+
+}
+
+.btn_brn:hover {
+    opacity: .9;
+}
+.embla__viewport {
+  width: 1000px;
+  overflow: hidden;
+}
+
+.embla__container {
+  width: 1000px;
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
 }
