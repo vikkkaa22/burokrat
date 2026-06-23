@@ -10,7 +10,7 @@
 
 <body class="flex-col">
     <div class="grid-row">
-        <img class=" mb-[135px]" src="img/coving.png" alt="падуга">
+        <img class=" mb-[135px] w-full" src="img/coving.png" alt="падуга">
         
     <div class="curtains">
         <img class=" " src="img/l_curtains.png" alt="левая штора">
