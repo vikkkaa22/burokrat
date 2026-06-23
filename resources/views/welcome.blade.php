@@ -15,13 +15,13 @@
 <body class="bg-bg">
     <header class="bg-bg sticky">
         <div class="mt-10 flex justify-between items-center max-w-6xl mx-auto">
-            <div class="logo">
-                <a href="/">
-                    <img src="../../public/img/logo.svg" alt="Логотип">
+            <div class="">
+                <a href="welcome.blade.php">
+                    <img src="img/logo.svg" alt="Логотип">
                 </a>
             </div>
             <nav>
-                <ul class="text-gray-xl font-main flex space-x-6">
+                <ul class="font-medium-main text-gray-xl flex space-x-6">
                     <li><a href="sections/about-city.blade.php">О городе</a></li>
                     <li><a href="sections/about-place.blade.php">Бюрократъ</a></li>
                     <li><a href="sections/museum.blade.php">Музей</a></li>
@@ -52,11 +52,14 @@
     <img src="img/1.jpg" alt="tiger">
     <p class="bg-bg text-red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repudiandae possimus dolorum fugit illo rerum illum expedita minus rem quis voluptate iure quam cum, facere blanditiis fuga accusantium odit natus?</p>   
     </main>
-    <footer class="bg-gray text-white font-main flex h-596">
-        <ul >
-            <li>+7 999 999 99 99</li>
-            <li>burokrat_museum@mail.ru</li>
-        </ul>
+    <footer class="bg-gray font-main h-596">
+        <div class="mt-10 flex max-w-6xl mx-auto pt-419 text-white grid grid-cols-2 gap-105">
+            <p><img src="/img/mail.svg" alt=""> <a href="mailto:burokrat_museum@mail.ru">burokrat_museum@mail.ru</a></p>
+            <p><img src="/img/phone.svg" alt=""> <a href="tel:+79999999999">+7 999 999 99 99</a></p>
+            
+            <p class="text-beige">&copy; «Бюрократъ», 2026</p>
+            <p class="text-beige">Политика конфиденциальности</p>
+        </div> 
     </footer>
     
 </body>
