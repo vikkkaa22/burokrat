@@ -1,16 +1,15 @@
 <?php
 
-namespace App\Filament\Resources\Products;
+namespace App\Filament\Resources\Events;
 
-use App\Filament\Resources\Products\Pages\CreateProduct;
-use App\Filament\Resources\Products\Pages\EditProduct;
-use App\Filament\Resources\Products\Pages\ListProducts;
-use App\Filament\Resources\Products\Schemas\ProductForm;
-use App\Filament\Resources\Products\Tables\ProductsTable;
-use App\Models\Product;
+use App\Filament\Resources\Events\Pages\CreateEvent;
+use App\Filament\Resources\Events\Pages\EditEvent;
+use App\Filament\Resources\Events\Pages\ListEvents;
+use App\Filament\Resources\Events\Schemas\EventForm;
+use App\Filament\Resources\Events\Tables\EventsTable;
+use App\Models\Event;
 use BackedEnum;
-use Filament\Actions\DeleteAction;
-use Filament\Actions\EditAction;
+use Filament\Forms\Components\DatePicker;
 use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
@@ -22,42 +21,45 @@ use Filament\Forms\Components\Toggle;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\ToggleColumn;
 use Filament\Tables\Filters\SelectFilter;
+use Filament\Actions\DeleteAction;
+use Filament\Actions\EditAction;
 
-class ProductResource extends Resource
+class EventResource extends Resource
 {
-    protected static ?string $model = Product::class;
+    protected static ?string $model = Event::class;
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 
     protected static ?string $recordTitleAttribute = 'title';
-    protected static ?string $navigationLabel = 'Товары';
+    protected static ?string $navigationLabel = 'События и новости';
     
-    protected static ?string $modelLabel = 'товар';
+    protected static ?string $modelLabel = 'события и новости';
     
-    protected static ?string $pluralModelLabel = 'Товары';
+    protected static ?string $pluralModelLabel = 'События и новости';
 
     public static function form(Schema $schema): Schema
-    {        
-        return $schema
+    {
+      return $schema
         ->components([
             TextInput::make('title')
                     ->label('Название')
                     ->required()
                     ->maxLength(255),
+            TextInput::make('post_url')
+                    ->label('Ссылка на соцсеть')
+                    ->required()
+                    ->maxLength(255),
             FileUpload::make('img_path') // Имя колонки в БД
                     ->label('Изображение')
                     ->image() // Разрешает загрузку только изображений
-                    ->directory('products') // Папка в storage/app/public/products
+                    ->directory('events') // Папка в storage/app/public/events
                     ->imageEditor() // Встроенный редактор (по желанию)
                     ->maxSize(5120), // Максимальный размер 5 МБ
             Textarea::make('description')
                     ->label('Описание')
                     ->rows(3),
-            TextInput::make('price')
-                    ->label('Цена')
-                    ->numeric()
-                    ->prefix('₽')
-                    ->default(0),
+            DatePicker::make('published_at')
+                ->label('Дата публикации'),
             Toggle::make('is_active')
                     ->label('Показывать на сайте')
                     ->default(true),
@@ -66,14 +68,14 @@ class ProductResource extends Resource
 
     public static function table(Table $table): Table
     {
-        return $table
+         return $table
             ->columns([
                 TextColumn::make('title')
                     ->label('Название')
-                    ->sortable(),
-                TextColumn::make('price')
-                    ->label('Цена')
-                    ->money('RUB')
+                    ->sortable(),    
+                TextColumn::make('published_at')
+                    ->label('Дата')
+                    ->dateTime()
                     ->sortable(),
                 ToggleColumn::make('is_active')
                     ->label('Показывать на сайте')
@@ -105,9 +107,9 @@ class ProductResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => ListProducts::route('/'),
-            'create' => CreateProduct::route('/create'),
-            'edit' => EditProduct::route('/{record}/edit'),
+            'index' => ListEvents::route('/'),
+            'create' => CreateEvent::route('/create'),
+            'edit' => EditEvent::route('/{record}/edit'),
         ];
     }
 }

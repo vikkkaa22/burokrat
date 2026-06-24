@@ -6,13 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Support\Facades\Storage;
 
-class Product extends Model
+class Event extends Model
 {
     protected $fillable = [
         'title',
-        'img_path',    
+        'img_path', 
+        'post_url',
         'description',
-        'price', 
+        'published_at',
         'is_active'
         ];
 
