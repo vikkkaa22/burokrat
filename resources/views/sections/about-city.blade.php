@@ -1,6 +1,6 @@
 <section class="bg-bg">
     <div class="px-30 py-20">
-        <div class="grid grid-cols-[470px_1fr] gap[72px]">
+        <div class="grid grid-cols-[670px_1fr] gap-48.75">
             <div>
                 <div class="relative mb-10">
                     <div class="absolute -top-12.5 text-[128px] font-bold uppercase text-red font-main blur-[6px] opacity-30">МИАСС</div>
@@ -22,17 +22,39 @@
                 </div>
             </div>
 
-            <div class="relative">
-                <img src="/img/frameTop.png" alt="frameTop" class="absolute">
-            </div>
+            <div class="relative flex flex-col ">
+                <img src="/img/frameTop.png" alt="" class="absolute -top-9.5 -left-1.5 z-20  ">
 
+                <div class="ml-7">
+                    <div class="grid grid-cols-[345px_286px] gap-3.5">
+                        <div class="flex flex-col gap-3.5">
+                            <img src="/img/1.png" alt="" class="w-86.25 h-48.5 object-cover block">
+                            <img src="/img/3.png" alt="" class="w-86.25 h-48.5 object-cover block">
+                        </div>
+                         <img src="/img/2.png" alt="" class="w-71.5 h-100.5 object-cover block">
+                    </div>
+                     <div class="grid grid-cols-[283px_346px] gap-3.5 mt-3.5">
+                        <img src="/img/5.png" alt="" class="w-70.75 h-102.5 object-cover block">
+                        <div class="flex flex-col gap-3.5">
+                            <img src="/img/4.png" alt="" class="w-86.5 h-48.75 object-cover block">
+                            <img src="/img/6.png" alt="" class="w-86.5 h-48.75 object-cover block">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-5] ml-7">
+                    <p class="max-w-161.25 text-red font-main font-medium text-[20px] mt-5">Бюрократъ — это не просто музей, а интерактивное пространство в историческом центре Миасса.</p>
+                </div>
+
+                <img src="/img/frameBot.png" alt="" class="absolute bottom-6.25 left-153 z-20  ">
+            </div>
         </div>
     </div>
 </section>
 
+      
 
-
-
+ 
 
 
 
