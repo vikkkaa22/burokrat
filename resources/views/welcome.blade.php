@@ -34,7 +34,6 @@
     <p class="bg-bg text-red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repudiandae possimus dolorum fugit illo rerum illum expedita minus rem quis voluptate iure quam cum, facere blanditiis fuga accusantium odit natus?</p>   
     </main>
     <footer>
-        подвал
     </footer>
     
 </body>
