@@ -13,12 +13,13 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-bg">
+
     <header class="bg-bg fixed top-0 left-0 w-full z-50">
         <div class="flex justify-between items-center w-[1440px] mx-auto">
             <div class="">
                 <a href="welcome.blade.php">
                     <img src="img/logo.svg" alt="Логотип">
-                </a>
+                </a>    
             </div>
             <nav>
                 <ul class="font-medium-main font-main font-medium text-gray text-xl flex space-x-13">
@@ -91,6 +92,7 @@
 
 
     </main>
+
     
     
     <footer class="relative overflow-hidden bg-gray h-[596px] flex flex-col justify-end">
@@ -126,9 +128,6 @@
             </a>
         </div>
     </div>
-</footer>
-
-
-    
+</footer>    
 </body>
 </html>
