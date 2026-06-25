@@ -15,7 +15,7 @@ class MainController extends Controller
         $events= Event::where('is_active', true)->get();
         $products = Product::where('is_active', true)->get();
         $settings = GeneralSetting::first(); 
-    
+        //dd($settings->more_configs['working_time']);
         return view('welcome', compact('faqs','events','products','settings'));
 
     }

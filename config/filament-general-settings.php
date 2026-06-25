@@ -11,60 +11,35 @@ return [
     'show_email_tab' => false,
     'show_social_networks_tab' => true,
     'expiration_cache_config_time' => 60,
-    'social_networks' => [
-        'facebook' => 'Facebook',
-        'twitter' => 'Twitter',
-        'instagram' => 'Instagram',
-        'vk' => '���������',
-        'max' => '����'
-    ],
+    'show_custom_tabs'=> true,
+   
     'custom_tabs' => [
         'more_configs' => [
-            'label' => 'More Configs',
+            'label' => 'Дополнительная информация',
             'icon' => 'heroicon-o-plus-circle',
             'columns' => 1,
             'fields' => [
-                'custom_field_1' => [
+                'working_time' => [
                     'type' => TypeFieldEnum::Text->value,
-                    'label' => 'Custom Textfield 1',
-                    'placeholder' => 'Custom Field 1',
-                    'required' => true,
-                    'rules' => 'required|string|max:255',
+                    'label' => 'Часы работы',
+                    'placeholder' => 'Часы работы',
+                    'required' => false,
+                    'rules' => 'string|max:255',
                 ],
-                'custom_field_2' => [
-                    'type' => TypeFieldEnum::Select->value,
-                    'label' => 'Custom Select 2',
-                    'placeholder' => 'Select',
-                    'required' => true,
-                    'options' => [
-                        'option_1' => 'Option 1',
-                        'option_2' => 'Option 2',
-                        'option_3' => 'Option 3',
-                    ],
+                'vk' => [
+                    'type' => TypeFieldEnum::Text->value,
+                    'label' => 'В конаткте',
+                    'placeholder' => 'Ссылка',
+                    'required' => false,
+                    'rules' => 'string|max:255',
                 ],
-                'custom_field_3' => [
-                    'type' => TypeFieldEnum::Textarea->value,
-                    'label' => 'Custom Textarea 3',
-                    'placeholder' => 'Textarea',
-                    'rows' => '3',
-                    'required' => true,
-                ],
-                'custom_field_4' => [
-                    'type' => TypeFieldEnum::Datetime->value,
-                    'label' => 'Custom Datetime 4',
-                    'placeholder' => 'Datetime',
-                    'seconds' => false,
-                ],
-                'custom_field_5' => [
-                    'type' => TypeFieldEnum::Boolean->value,
-                    'label' => 'Custom Boolean 5',
-                    'placeholder' => 'Boolean'
-                ],
-                'custom_field_6' => [
-                    'type' => TypeFieldEnum::RichEditor->value,
-                    'label' => 'Custom Rich Editor 6',
-                    'toolbarButtons' => ['bold', 'italic', 'link', 'bulletList', 'orderedList'],
-                ],
+                'max' => [
+                    'type' => TypeFieldEnum::Text->value,
+                    'label' => 'МАКС',
+                    'placeholder' => 'Ссылка',
+                    'required' => false,
+                    'rules' => 'string|max:255',
+                ]
             ]
         ],
     ]
