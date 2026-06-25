@@ -30,4 +30,57 @@
   
 } */
 
+@keyframes move-left {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
 
+.theater:hover .curtain1 {
+  animation-play-state: running;
+}
+
+.curtain1 {
+  animation: move-left 5s 1 backwards;
+  animation-play-state: paused;
+}
+
+
+@keyframes move-right {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(100%);
+  }
+}
+
+.theater:hover .curtain2 {
+  animation-play-state: running;
+}
+
+.curtain2 {
+  animation: move-right 5s 1 backwards;
+  animation-play-state: paused;
+}
+
+
+@keyframes hiden-show {
+  from{
+   opacity: 1;
+  }
+  to{
+    opacity: 0;
+  }
+}
+
+.theater:hover .text-show {
+ animation-fill-mode: forwards;
+}
+
+.text-show {
+ animation: hiden-show 0.3s forwards;
+}
