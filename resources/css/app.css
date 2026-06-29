@@ -19,20 +19,6 @@
 
 
 
-/* .content{
-  display: grid;
-  grid-template-columns: max-content;
-  text-align: center;
-  justify-content: center;
-}
-
-.curtains{
-  display: grid;
-  grid-template-columns:auto ;
-  gap: 900px;
-  
-} */
-
 @keyframes move-left {
   from{
     transform: translateX(0);
@@ -42,13 +28,13 @@
   }
 }
 
-.theater:hover .curtain1 {
+/* .theater:hover .curtain1 {
   animation-play-state: running;
-}
+} */
 
-.curtain1 {
-  animation: move-left 3s 1 both;
-  animation-play-state: paused;
+.animate1 {
+  animation: move-left 2s 1 both;
+
 }
 
 
@@ -62,17 +48,16 @@
 }
 
 
-.theater:hover .curtain2 {
+/* .theater:hover .curtain2 {
   animation-play-state: running;
+} */
+
+.animate2 {
+  animation: move-right 2s 1 both;
 }
 
-.curtain2 {
-  animation: move-right 3s 1 both;
-  animation-play-state: paused;
-}
 
-
-@keyframes hiden-show {
+@keyframes hidden-show {
   from{
    opacity: 1;
   }
@@ -81,11 +66,38 @@
   }
 }
 
-.theater:hover .text-show {
+/* .theater:hover .text-show {
  animation-fill-mode: forwards;
+} */
+
+.animate3 {
+ animation: hidden-show 0.3s forwards;
 }
 
-.text-show {
- animation: hiden-show 0.3s forwards;
-
+/* @keyframes move-right {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(5%);
+  }
 }
+
+@keyframes move-left {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-5%);
+  }
+}
+
+
+.theater:hover .curtain1 {
+ animation:move-left 1s  ease-in-out;
+}
+
+.theater:hover .curtain2 {
+ animation:move-right 1s  ease-in-out ;
+} */
+
