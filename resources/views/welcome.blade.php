@@ -105,7 +105,11 @@
          @include('sections.reviews')
          @include('sections.show')
 
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> Buivan
     </main>
 
 
