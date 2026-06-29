@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
+
 <body class="bg-bg">
 
     <header class="bg-bg fixed top-0 left-0 w-full z-50">
@@ -35,6 +36,7 @@
                 </ul>
             </nav>
         </div>
+
 
     </header>
     <main>
@@ -105,6 +107,7 @@
 
 
     </main>
+
 
     
     
