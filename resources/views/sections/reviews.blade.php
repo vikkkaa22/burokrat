@@ -148,7 +148,7 @@ function reviewsSlider() {
             { id:'02', date:'05 Августа 2025', image:'img/reviews02.jpg' },
             { id:'03', date:'08 Августа 2025', image:'img/reviews03.jpg' },
             { id:'04', date:'10 Августа 2025', image:'img/reviews04.jpg' },
-            { id:'05', date:'15 Августа 2025', image:'imgreviews/05.jpg' },
+            { id:'05', date:'15 Августа 2025', image:'img/reviews05.jpg' },
             { id:'06', date:'18 Августа 2025', image:'img/reviews06.jpg' },
             { id:'07', date:'20 Августа 2025', image:'img/reviews07.jpg' },
             { id:'08', date:'22 Августа 2025', image:'img/reviews08.jpg' },
