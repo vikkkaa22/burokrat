@@ -12,6 +12,7 @@
   --color-red: #83372A;
   --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
   --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+  --color-red_hover: #A67469;
   /* ... */
 }
 
@@ -35,7 +36,7 @@
     transform: translateX(0);
   }
   to{
-    transform: translateX(-100%);
+    transform: translateX(-70%);
   }
 }
 
@@ -44,7 +45,7 @@
 }
 
 .curtain1 {
-  animation: move-left 5s 1 backwards;
+  animation: move-left 3s 1 both;
   animation-play-state: paused;
 }
 
@@ -54,7 +55,7 @@
     transform: translateX(0);
   }
   to{
-    transform: translateX(100%);
+    transform: translateX(70%);
   }
 }
 
@@ -63,7 +64,7 @@
 }
 
 .curtain2 {
-  animation: move-right 5s 1 backwards;
+  animation: move-right 3s 1 both;
   animation-play-state: paused;
 }
 
@@ -83,4 +84,5 @@
 
 .text-show {
  animation: hiden-show 0.3s forwards;
+
 }
