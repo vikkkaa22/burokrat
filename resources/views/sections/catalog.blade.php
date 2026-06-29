@@ -1,3 +1,4 @@
+
 <section class="container mx-auto px-[120px]">
 <div class="relative mb-8 lg:mb-10">
                     <div class="absolute top-0 left-0 text-[70px] md:text-[100px] xl:text-[128px] font-bold uppercase text-red font-main blur-[6px] opacity-30 pointer-events-none leading-none">
@@ -64,3 +65,4 @@
 
     </div>
 </section>
+
