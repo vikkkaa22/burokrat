@@ -77,6 +77,7 @@
                 </div>
             </div>
         </div>
+        
     </section>
          @include('sections.about-city')
          @include('sections.about-place')
