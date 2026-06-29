@@ -15,7 +15,6 @@
   /* ... */
 }
 
-
 h1 {
     color: #83372A;
     font-style: bold;
@@ -45,7 +44,7 @@ p{
     padding: 60px 20px;
 }
 .title1 {
-    font-size: 95px;
+    font-size: 64px;
     font-weight: 700;
     margin-bottom: 25px;
 }
@@ -64,6 +63,11 @@ p{
     color: #fff;
     cursor: pointer;
     font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    line-height: 1;
 }
 .events_grid {
     display: grid;
@@ -106,17 +110,16 @@ p{
     opacity: .9;
 }
 .embla__viewport {
-  width: 1000px;
+  width: 100%;
   overflow: hidden;
 }
 
 .embla__container {
-  width: 1000px;
   display: flex;
-  touch-action: pan-y pinch-zoom;
+  gap: 65px;
 }
 
 .embla__slide {
-  flex: 0 0 100%;
+ flex-shrink: 0;
   min-width: 0;
 }
