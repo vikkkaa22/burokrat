@@ -2497,6 +2497,9 @@
         {
             "name": "laravel/prompts",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             "version": "v0.3.21",
             "source": {
                 "type": "git",
@@ -2507,6 +2510,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/prompts/zipball/7753c65c281c2550c7c183f14e18062073b7d821",
                 "reference": "7753c65c281c2550c7c183f14e18062073b7d821",
+<<<<<<< HEAD
 =======
             "version": "v0.3.18",
             "source": {
@@ -2519,6 +2523,8 @@
                 "url": "https://api.github.com/repos/laravel/prompts/zipball/a19af51bb144bf87f08397921fa619f85c7d4e72",
                 "reference": "a19af51bb144bf87f08397921fa619f85c7d4e72",
 >>>>>>> Buivan
+=======
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "shasum": ""
             },
             "require": {
@@ -2563,6 +2569,7 @@
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/laravel/prompts/tree/v0.3.21"
             },
             "time": "2026-06-26T00:11:25+00:00"
@@ -2571,6 +2578,11 @@
             },
             "time": "2026-05-19T00:47:18+00:00"
 >>>>>>> Buivan
+=======
+                "source": "https://github.com/laravel/prompts/tree/v0.3.21"
+            },
+            "time": "2026-06-26T00:11:25+00:00"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
         },
         {
             "name": "laravel/serializable-closure",
@@ -2983,6 +2995,7 @@
         {
             "name": "league/flysystem",
             "version": "3.35.1",
+<<<<<<< HEAD
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
@@ -2995,16 +3008,23 @@
 =======
             "name": "league/flysystem",
             "version": "3.35.0",
+=======
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "d0a405f03d980461e4b6e08cfed2c162650f9f6b"
+                "reference": "f23af6c5aafd958a7593029a271d77baf5ed793c"
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
                 "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/d0a405f03d980461e4b6e08cfed2c162650f9f6b",
                 "reference": "d0a405f03d980461e4b6e08cfed2c162650f9f6b",
 >>>>>>> Buivan
+=======
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f23af6c5aafd958a7593029a271d77baf5ed793c",
+                "reference": "f23af6c5aafd958a7593029a271d77baf5ed793c",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "shasum": ""
             },
             "require": {
@@ -3073,6 +3093,7 @@
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/thephpleague/flysystem/tree/3.35.1"
             },
             "time": "2026-06-25T06:52:23+00:00"
@@ -3081,6 +3102,11 @@
             },
             "time": "2026-06-22T20:12:06+00:00"
 >>>>>>> Buivan
+=======
+                "source": "https://github.com/thephpleague/flysystem/tree/3.35.1"
+            },
+            "time": "2026-06-25T06:52:23+00:00"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
         },
         {
             "name": "league/flysystem-local",
@@ -5568,6 +5594,7 @@
                 "shasum": ""
             },
             "require": {
+<<<<<<< HEAD
 =======
             "name": "symfony/clock",
             "version": "v8.1.0",
@@ -5584,6 +5611,8 @@
             },
             "require": {
 >>>>>>> Buivan
+=======
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "php": ">=8.4.1",
                 "psr/clock": "^1.0"
             },
@@ -5649,6 +5678,7 @@
         {
             "name": "symfony/console",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v7.4.14",
             "source": {
                 "type": "git",
@@ -5661,16 +5691,24 @@
                 "reference": "92f58bc4bf97a92ed1b9f367f0cd44f20bde0e87",
 =======
             "version": "v7.4.13",
+=======
+            "version": "v7.4.14",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "85095d2573eaefaf35e40b9513a9bf09f72cd217"
+                "reference": "92f58bc4bf97a92ed1b9f367f0cd44f20bde0e87"
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
                 "url": "https://api.github.com/repos/symfony/console/zipball/85095d2573eaefaf35e40b9513a9bf09f72cd217",
                 "reference": "85095d2573eaefaf35e40b9513a9bf09f72cd217",
 >>>>>>> Buivan
+=======
+                "url": "https://api.github.com/repos/symfony/console/zipball/92f58bc4bf97a92ed1b9f367f0cd44f20bde0e87",
+                "reference": "92f58bc4bf97a92ed1b9f367f0cd44f20bde0e87",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "shasum": ""
             },
             "require": {
@@ -5736,10 +5774,14 @@
             ],
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/console/tree/v7.4.14"
 =======
                 "source": "https://github.com/symfony/console/tree/v7.4.13"
 >>>>>>> Buivan
+=======
+                "source": "https://github.com/symfony/console/tree/v7.4.14"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             },
             "funding": [
                 {
@@ -5760,10 +5802,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2026-06-16T11:50:14+00:00"
 =======
             "time": "2026-05-24T08:56:14+00:00"
 >>>>>>> Buivan
+=======
+            "time": "2026-06-16T11:50:14+00:00"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
         },
         {
             "name": "symfony/css-selector",
@@ -5837,6 +5883,7 @@
         {
             "name": "symfony/deprecation-contracts",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v3.7.1",
             "source": {
                 "type": "git",
@@ -5849,16 +5896,24 @@
                 "reference": "f3202fa1b5097b0af062dc978b32ecf63404e31d",
 =======
             "version": "v3.7.0",
+=======
+            "version": "v3.7.1",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "50f59d1f3ca46d41ac911f97a78626b6756af35b"
+                "reference": "f3202fa1b5097b0af062dc978b32ecf63404e31d"
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
                 "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/50f59d1f3ca46d41ac911f97a78626b6756af35b",
                 "reference": "50f59d1f3ca46d41ac911f97a78626b6756af35b",
 >>>>>>> Buivan
+=======
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/f3202fa1b5097b0af062dc978b32ecf63404e31d",
+                "reference": "f3202fa1b5097b0af062dc978b32ecf63404e31d",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "shasum": ""
             },
             "require": {
@@ -5897,10 +5952,14 @@
             "homepage": "https://symfony.com",
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/deprecation-contracts/tree/v3.7.1"
 =======
                 "source": "https://github.com/symfony/deprecation-contracts/tree/v3.7.0"
 >>>>>>> Buivan
+=======
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.7.1"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             },
             "funding": [
                 {
@@ -5921,6 +5980,7 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2026-06-05T06:23:12+00:00"
         },
         {
@@ -5937,20 +5997,28 @@
                 "reference": "4e1a093b481f323e6e326451f9760c3868430673",
 =======
             "time": "2026-04-13T15:52:40+00:00"
+=======
+            "time": "2026-06-05T06:23:12+00:00"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
         },
         {
             "name": "symfony/error-handler",
-            "version": "v7.4.8",
+            "version": "v7.4.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/error-handler.git",
-                "reference": "8dd79d8af777ee6cba2fd4d98da6ffb839f3c0fa"
+                "reference": "4e1a093b481f323e6e326451f9760c3868430673"
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
                 "url": "https://api.github.com/repos/symfony/error-handler/zipball/8dd79d8af777ee6cba2fd4d98da6ffb839f3c0fa",
                 "reference": "8dd79d8af777ee6cba2fd4d98da6ffb839f3c0fa",
 >>>>>>> Buivan
+=======
+                "url": "https://api.github.com/repos/symfony/error-handler/zipball/4e1a093b481f323e6e326451f9760c3868430673",
+                "reference": "4e1a093b481f323e6e326451f9760c3868430673",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "shasum": ""
             },
             "require": {
@@ -6000,10 +6068,14 @@
             "homepage": "https://symfony.com",
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/error-handler/tree/v7.4.14"
 =======
                 "source": "https://github.com/symfony/error-handler/tree/v7.4.8"
 >>>>>>> Buivan
+=======
+                "source": "https://github.com/symfony/error-handler/tree/v7.4.14"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             },
             "funding": [
                 {
@@ -6023,6 +6095,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2026-06-05T06:22:21+00:00"
         },
@@ -6054,6 +6127,22 @@
                 "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/f249ae3f680958b6f1f9dd76e5747cf0695b4102",
                 "reference": "f249ae3f680958b6f1f9dd76e5747cf0695b4102",
 >>>>>>> Buivan
+=======
+            "time": "2026-06-05T06:22:21+00:00"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "v8.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/event-dispatcher.git",
+                "reference": "abd6c11dc468725d1627302ad10f6cd486e9e3d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/abd6c11dc468725d1627302ad10f6cd486e9e3d0",
+                "reference": "abd6c11dc468725d1627302ad10f6cd486e9e3d0",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "shasum": ""
             },
             "require": {
@@ -6107,10 +6196,14 @@
             "homepage": "https://symfony.com",
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/event-dispatcher/tree/v8.1.1"
 =======
                 "source": "https://github.com/symfony/event-dispatcher/tree/v8.1.0"
 >>>>>>> Buivan
+=======
+                "source": "https://github.com/symfony/event-dispatcher/tree/v8.1.1"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             },
             "funding": [
                 {
@@ -6131,6 +6224,7 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2026-06-09T12:28:30+00:00"
         },
         {
@@ -6147,20 +6241,28 @@
                 "reference": "c7de7a00ffb67842132da02ea92988a39ccd9f4e",
 =======
             "time": "2026-05-29T05:06:50+00:00"
+=======
+            "time": "2026-06-09T12:28:30+00:00"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
         },
         {
             "name": "symfony/event-dispatcher-contracts",
-            "version": "v3.7.0",
+            "version": "v3.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher-contracts.git",
-                "reference": "ccba7060602b7fed0b03c85bf025257f76d9ef32"
+                "reference": "c7de7a00ffb67842132da02ea92988a39ccd9f4e"
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
                 "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/ccba7060602b7fed0b03c85bf025257f76d9ef32",
                 "reference": "ccba7060602b7fed0b03c85bf025257f76d9ef32",
 >>>>>>> Buivan
+=======
+                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/c7de7a00ffb67842132da02ea92988a39ccd9f4e",
+                "reference": "c7de7a00ffb67842132da02ea92988a39ccd9f4e",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "shasum": ""
             },
             "require": {
@@ -6208,10 +6310,14 @@
             ],
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.7.1"
 =======
                 "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.7.0"
 >>>>>>> Buivan
+=======
+                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.7.1"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             },
             "funding": [
                 {
@@ -6232,6 +6338,7 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2026-06-05T06:23:12+00:00"
         },
         {
@@ -6248,20 +6355,28 @@
                 "reference": "13b38720174286f55d1761152b575a8d1436fc25",
 =======
             "time": "2026-01-05T13:30:16+00:00"
+=======
+            "time": "2026-06-05T06:23:12+00:00"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
         },
         {
             "name": "symfony/finder",
-            "version": "v7.4.8",
+            "version": "v7.4.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "e0be088d22278583a82da281886e8c3592fbf149"
+                "reference": "13b38720174286f55d1761152b575a8d1436fc25"
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
                 "url": "https://api.github.com/repos/symfony/finder/zipball/e0be088d22278583a82da281886e8c3592fbf149",
                 "reference": "e0be088d22278583a82da281886e8c3592fbf149",
 >>>>>>> Buivan
+=======
+                "url": "https://api.github.com/repos/symfony/finder/zipball/13b38720174286f55d1761152b575a8d1436fc25",
+                "reference": "13b38720174286f55d1761152b575a8d1436fc25",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "shasum": ""
             },
             "require": {
@@ -6297,10 +6412,14 @@
             "homepage": "https://symfony.com",
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/finder/tree/v7.4.14"
 =======
                 "source": "https://github.com/symfony/finder/tree/v7.4.8"
 >>>>>>> Buivan
+=======
+                "source": "https://github.com/symfony/finder/tree/v7.4.14"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             },
             "funding": [
                 {
@@ -6321,6 +6440,9 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             "time": "2026-06-27T08:31:18+00:00"
         },
         {
@@ -6394,6 +6516,7 @@
                 }
             ],
             "time": "2026-06-06T11:11:44+00:00"
+<<<<<<< HEAD
         },
         {
             "name": "symfony/http-foundation",
@@ -6409,20 +6532,27 @@
                 "reference": "06db5ae1552177bf8572f8908839f12e3c06aed3",
 =======
             "time": "2026-03-24T13:12:05+00:00"
+=======
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v7.4.13",
+            "version": "v7.4.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "bc354f47c62301e990b7874fa662326368508e2c"
+                "reference": "06db5ae1552177bf8572f8908839f12e3c06aed3"
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
                 "url": "https://api.github.com/repos/symfony/http-foundation/zipball/bc354f47c62301e990b7874fa662326368508e2c",
                 "reference": "bc354f47c62301e990b7874fa662326368508e2c",
 >>>>>>> Buivan
+=======
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/06db5ae1552177bf8572f8908839f12e3c06aed3",
+                "reference": "06db5ae1552177bf8572f8908839f12e3c06aed3",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "shasum": ""
             },
             "require": {
@@ -6472,10 +6602,14 @@
             "homepage": "https://symfony.com",
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-foundation/tree/v7.4.14"
 =======
                 "source": "https://github.com/symfony/http-foundation/tree/v7.4.13"
 >>>>>>> Buivan
+=======
+                "source": "https://github.com/symfony/http-foundation/tree/v7.4.14"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             },
             "funding": [
                 {
@@ -6496,6 +6630,7 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2026-06-11T07:31:44+00:00"
         },
         {
@@ -6512,20 +6647,28 @@
                 "reference": "e99af79b1e776646eda0e1c23b7b45c184ff99be",
 =======
             "time": "2026-05-24T11:20:33+00:00"
+=======
+            "time": "2026-06-11T07:31:44+00:00"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v7.4.13",
+            "version": "v7.4.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "9df847980c436451f4f51d1284491bb4356dd989"
+                "reference": "e99af79b1e776646eda0e1c23b7b45c184ff99be"
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
                 "url": "https://api.github.com/repos/symfony/http-kernel/zipball/9df847980c436451f4f51d1284491bb4356dd989",
                 "reference": "9df847980c436451f4f51d1284491bb4356dd989",
 >>>>>>> Buivan
+=======
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/e99af79b1e776646eda0e1c23b7b45c184ff99be",
+                "reference": "e99af79b1e776646eda0e1c23b7b45c184ff99be",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "shasum": ""
             },
             "require": {
@@ -6612,10 +6755,14 @@
             "homepage": "https://symfony.com",
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-kernel/tree/v7.4.14"
 =======
                 "source": "https://github.com/symfony/http-kernel/tree/v7.4.13"
 >>>>>>> Buivan
+=======
+                "source": "https://github.com/symfony/http-kernel/tree/v7.4.14"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             },
             "funding": [
                 {
@@ -6636,6 +6783,7 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2026-06-27T09:14:35+00:00"
         },
         {
@@ -6652,20 +6800,28 @@
                 "reference": "f88ce03ae73e3edb5c176ce1f337709996e88495",
 =======
             "time": "2026-05-27T08:31:43+00:00"
+=======
+            "time": "2026-06-27T09:14:35+00:00"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
         },
         {
             "name": "symfony/mailer",
-            "version": "v7.4.12",
+            "version": "v7.4.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mailer.git",
-                "reference": "5cefb712a25f320579615ba9e1942abaeade7dff"
+                "reference": "f88ce03ae73e3edb5c176ce1f337709996e88495"
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
                 "url": "https://api.github.com/repos/symfony/mailer/zipball/5cefb712a25f320579615ba9e1942abaeade7dff",
                 "reference": "5cefb712a25f320579615ba9e1942abaeade7dff",
 >>>>>>> Buivan
+=======
+                "url": "https://api.github.com/repos/symfony/mailer/zipball/f88ce03ae73e3edb5c176ce1f337709996e88495",
+                "reference": "f88ce03ae73e3edb5c176ce1f337709996e88495",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "shasum": ""
             },
             "require": {
@@ -6717,10 +6873,14 @@
             "homepage": "https://symfony.com",
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/mailer/tree/v7.4.14"
 =======
                 "source": "https://github.com/symfony/mailer/tree/v7.4.12"
 >>>>>>> Buivan
+=======
+                "source": "https://github.com/symfony/mailer/tree/v7.4.14"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             },
             "funding": [
                 {
@@ -6741,10 +6901,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2026-06-13T08:51:35+00:00"
 =======
             "time": "2026-05-20T07:20:23+00:00"
 >>>>>>> Buivan
+=======
+            "time": "2026-06-13T08:51:35+00:00"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
         },
         {
             "name": "symfony/mime",
@@ -7817,6 +7981,7 @@
         {
             "name": "symfony/service-contracts",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v3.7.1",
             "source": {
                 "type": "git",
@@ -7829,16 +7994,24 @@
                 "reference": "c0a284bab1ed8aa0417e3d69250ab437739563a0",
 =======
             "version": "v3.7.0",
+=======
+            "version": "v3.7.1",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "d25d82433a80eba6aa0e6c24b61d7370d99e444a"
+                "reference": "c0a284bab1ed8aa0417e3d69250ab437739563a0"
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
                 "url": "https://api.github.com/repos/symfony/service-contracts/zipball/d25d82433a80eba6aa0e6c24b61d7370d99e444a",
                 "reference": "d25d82433a80eba6aa0e6c24b61d7370d99e444a",
 >>>>>>> Buivan
+=======
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/c0a284bab1ed8aa0417e3d69250ab437739563a0",
+                "reference": "c0a284bab1ed8aa0417e3d69250ab437739563a0",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "shasum": ""
             },
             "require": {
@@ -7893,10 +8066,14 @@
             ],
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/service-contracts/tree/v3.7.1"
 =======
                 "source": "https://github.com/symfony/service-contracts/tree/v3.7.0"
 >>>>>>> Buivan
+=======
+                "source": "https://github.com/symfony/service-contracts/tree/v3.7.1"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             },
             "funding": [
                 {
@@ -7917,10 +8094,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2026-06-16T09:55:08+00:00"
 =======
             "time": "2026-03-28T09:44:51+00:00"
 >>>>>>> Buivan
+=======
+            "time": "2026-06-16T09:55:08+00:00"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
         },
         {
             "name": "symfony/string",
@@ -8015,6 +8196,9 @@
         {
             "name": "symfony/translation",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             "version": "v8.1.1",
             "source": {
                 "type": "git",
@@ -8025,6 +8209,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/translation/zipball/342b4218630dc2cf284cedcb2080c80b13404014",
                 "reference": "342b4218630dc2cf284cedcb2080c80b13404014",
+<<<<<<< HEAD
 =======
             "version": "v8.1.0",
             "source": {
@@ -8037,6 +8222,8 @@
                 "url": "https://api.github.com/repos/symfony/translation/zipball/b2bd012ca28c4acae830ee1206a5b6e35dd99693",
                 "reference": "b2bd012ca28c4acae830ee1206a5b6e35dd99693",
 >>>>>>> Buivan
+=======
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "shasum": ""
             },
             "require": {
@@ -8097,10 +8284,14 @@
             "homepage": "https://symfony.com",
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/translation/tree/v8.1.1"
 =======
                 "source": "https://github.com/symfony/translation/tree/v8.1.0"
 >>>>>>> Buivan
+=======
+                "source": "https://github.com/symfony/translation/tree/v8.1.1"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             },
             "funding": [
                 {
@@ -8121,6 +8312,7 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2026-06-06T11:11:44+00:00"
         },
         {
@@ -8137,20 +8329,28 @@
                 "reference": "ccb206b98faccc511ebae8e5fad50f2dc0b30621",
 =======
             "time": "2026-05-29T05:06:50+00:00"
+=======
+            "time": "2026-06-06T11:11:44+00:00"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
         },
         {
             "name": "symfony/translation-contracts",
-            "version": "v3.7.0",
+            "version": "v3.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation-contracts.git",
-                "reference": "0ab302977a952b42fd51475c4ebac81f8da0a95d"
+                "reference": "ccb206b98faccc511ebae8e5fad50f2dc0b30621"
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
                 "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/0ab302977a952b42fd51475c4ebac81f8da0a95d",
                 "reference": "0ab302977a952b42fd51475c4ebac81f8da0a95d",
 >>>>>>> Buivan
+=======
+                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/ccb206b98faccc511ebae8e5fad50f2dc0b30621",
+                "reference": "ccb206b98faccc511ebae8e5fad50f2dc0b30621",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "shasum": ""
             },
             "require": {
@@ -8200,10 +8400,14 @@
             ],
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/translation-contracts/tree/v3.7.1"
 =======
                 "source": "https://github.com/symfony/translation-contracts/tree/v3.7.0"
 >>>>>>> Buivan
+=======
+                "source": "https://github.com/symfony/translation-contracts/tree/v3.7.1"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             },
             "funding": [
                 {
@@ -8224,10 +8428,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2026-06-05T06:23:12+00:00"
 =======
             "time": "2026-01-05T13:30:16+00:00"
 >>>>>>> Buivan
+=======
+            "time": "2026-06-05T06:23:12+00:00"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
         },
         {
             "name": "symfony/uid",
@@ -8310,6 +8518,7 @@
         {
             "name": "symfony/var-dumper",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v7.4.14",
             "source": {
                 "type": "git",
@@ -8322,16 +8531,24 @@
                 "reference": "9a3a56a4a1e65a5cb4f8d13801fe8ab0a170e358",
 =======
             "version": "v7.4.8",
+=======
+            "version": "v7.4.14",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "9510c3966f749a1d1ff0059e1eabef6cc621e7fd"
+                "reference": "9a3a56a4a1e65a5cb4f8d13801fe8ab0a170e358"
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
                 "url": "https://api.github.com/repos/symfony/var-dumper/zipball/9510c3966f749a1d1ff0059e1eabef6cc621e7fd",
                 "reference": "9510c3966f749a1d1ff0059e1eabef6cc621e7fd",
 >>>>>>> Buivan
+=======
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/9a3a56a4a1e65a5cb4f8d13801fe8ab0a170e358",
+                "reference": "9a3a56a4a1e65a5cb4f8d13801fe8ab0a170e358",
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "shasum": ""
             },
             "require": {
@@ -8386,10 +8603,14 @@
             ],
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/var-dumper/tree/v7.4.14"
 =======
                 "source": "https://github.com/symfony/var-dumper/tree/v7.4.8"
 >>>>>>> Buivan
+=======
+                "source": "https://github.com/symfony/var-dumper/tree/v7.4.14"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             },
             "funding": [
                 {
@@ -8410,10 +8631,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2026-06-08T20:24:16+00:00"
 =======
             "time": "2026-03-30T13:44:50+00:00"
 >>>>>>> Buivan
+=======
+            "time": "2026-06-08T20:24:16+00:00"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -12523,6 +12748,9 @@
         {
             "name": "symfony/yaml",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             "version": "v8.1.1",
             "source": {
                 "type": "git",
@@ -12533,6 +12761,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/yaml/zipball/8e4cdd4311683516be06944f4b85244063cdb886",
                 "reference": "8e4cdd4311683516be06944f4b85244063cdb886",
+<<<<<<< HEAD
 =======
             "version": "v8.1.0",
             "source": {
@@ -12545,6 +12774,8 @@
                 "url": "https://api.github.com/repos/symfony/yaml/zipball/efb42bd2c6f4f3ccfd4683583449938b5fc146b0",
                 "reference": "efb42bd2c6f4f3ccfd4683583449938b5fc146b0",
 >>>>>>> Buivan
+=======
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
                 "shasum": ""
             },
             "require": {
@@ -12588,10 +12819,14 @@
             "homepage": "https://symfony.com",
             "support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/yaml/tree/v8.1.1"
 =======
                 "source": "https://github.com/symfony/yaml/tree/v8.1.0"
 >>>>>>> Buivan
+=======
+                "source": "https://github.com/symfony/yaml/tree/v8.1.1"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
             },
             "funding": [
                 {
@@ -12612,10 +12847,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2026-06-09T11:06:24+00:00"
 =======
             "time": "2026-05-29T05:06:50+00:00"
 >>>>>>> Buivan
+=======
+            "time": "2026-06-09T11:06:24+00:00"
+>>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
         },
         {
             "name": "ta-tikoma/phpunit-architecture-test",
@@ -12802,5 +13041,5 @@
         "php": "^8.2"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
