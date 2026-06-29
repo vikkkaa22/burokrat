@@ -18,7 +18,7 @@
             <!-- Левая часть -->
             <div class="w-[280px] flex justify-center flex-shrink-0">
                 <img
-                    src="img/logo.png"
+                    src="img/logo-Photoroom.png"
                     alt="Вопросы"
                     class="w-[387px] h-[405px] object-contain"
                 >
@@ -30,7 +30,9 @@
                 <details class="border border-[#83372A] border-[3px] p-4 group">
                     <summary class="cursor-pointer flex justify-between items-center list-none font-main text-[20px] text-gray">
                         Что такое ретро-пространство «Бюрократъ»?
-                        <span class="group-open:rotate-180 transition">⌄</span>
+                        <img src="img/Vector.svg"
+                           class="w-4 h-4 transition-transform group-open:rotate-180"
+                         alt="">
                     </summary>
 
                     <p class="mt-4 leading-relaxed font-main text-[18px] text-gray">
@@ -46,7 +48,9 @@
                 <details class="border border-[#83372A] border-[3px] p-4 group">
                     <summary class="cursor-pointer flex justify-between items-center list-none font-main text-[20px] text-gray">
                         Нужно ли заранее записываться, чтобы попасть в «Бюрократъ»?
-                        <span class="group-open:rotate-180 transition">⌄</span>
+                         <img src="img/Vector.svg"
+                         class="w-4 h-4 transition-transform group-open:rotate-180"
+                          alt="">
                     </summary>
 
                     <p class="mt-4  leading-relaxed font-main text-[18px] text-gray">
@@ -63,7 +67,9 @@
                 <details class="border border-[#83372A] border-[3px] p-4 group">
                     <summary class="cursor-pointer flex justify-between items-center list-none font-main text-[20px] text-gray">
                         Можно ли у вас проводить фотосессии и съёмки?
-                        <span class="group-open:rotate-180 transition">⌄</span>
+                         <img src="img/Vector.svg"
+                          class="w-4 h-4 transition-transform group-open:rotate-180"
+                           alt="">
                     </summary>
 
                     <p class="mt-4  leading-relaxed font-main text-[18px] text-gray">
@@ -79,7 +85,9 @@
                 <details class="border border-[#83372A] border-[3px] p-4 group">
                     <summary class="cursor-pointer flex justify-between items-center list-none font-main text-[20px] text-gray">
                         Можно ли провести у вас мероприятие?
-                        <span class="group-open:rotate-180 transition">⌄</span>
+                         <img src="img/Vector.svg"
+                         class="w-4 h-4 transition-transform group-open:rotate-180"
+                         alt="">
                     </summary>
 
                     <p class="mt-4  leading-relaxed font-main text-[18px] text-gray">
@@ -95,7 +103,9 @@
                 <details class="border border-[#83372A] border-[3px] p-4 group">
                     <summary class="cursor-pointer flex justify-between items-center list-none font-main text-[20px] text-gray">
                         Есть ли возрастные ограничения?
-                        <span class="group-open:rotate-180 transition">⌄</span>
+                         <img src="img/Vector.svg"
+                         class="w-4 h-4 transition-transform group-open:rotate-180"
+                         alt="">
                     </summary>
 
                     <p class="mt-4 leading-relaxed font-main text-[18px] text-gray">
@@ -107,7 +117,9 @@
                 <details class="border border-[#83372A] border-[3px] p-4 group">
                     <summary class="cursor-pointer flex justify-between items-center list-none font-main text-[20px] text-gray">
                         Принимает ли «Бюрократъ» экспонаты от граждан?
-                        <span class="group-open:rotate-180 transition">⌄</span>
+                         <img src="img/Vector.svg"
+                         class="w-4 h-4 transition-transform group-open:rotate-180"
+                          alt="">
                     </summary>
 
                     <p class="mt-4 leading-relaxed font-main text-[18px] text-gray">
