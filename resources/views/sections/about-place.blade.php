@@ -1,4 +1,4 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <div class="bg-red w-screen p-[120px] md:p-[60px] sm:p-[20px]">
     <h1 class="font-title text-[64px] uppercase text-white mb-[70px]">
         О ПРОСТРАНСТВЕ «БЮРОКРАТЪ»
