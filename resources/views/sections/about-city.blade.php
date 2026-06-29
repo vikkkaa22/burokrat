@@ -10,7 +10,7 @@
                         О ГОРОДЕ
                     </h2>
                 </div>
-                <div class="space-y-6 md:space-y-8 text-xl md:text-lg xl:text-xl font-main text-gray font-medium">
+                <div class="space-y-6 md:space-y-8 text-base md:text-lg xl:text-xl font-main text-gray font-medium">
                     <p> Миасс родился в 1773 году как медеплавильный завод купца Лугинина. Но настоящая слава пришла с золотом: в XIX веке долина реки превратилась в гигантский прииск. Здесь император Александр I нашёл самородок весом 3 кг, а мастеровой Никифор Сюткин в 1842 году — легендарный«Большой треугольник» (36 кг!), один из крупнейших в мире.</p>
                     <p> В 1892 году через Миасс прошёл первый поезд на строящемся Транссибе. Кстати, от Москвы до станции Миасс I — ровно 2000 км.</p>
                     <p> Статус город получил в 1926 году. В 1941 году сюда эвакуировали завод ЗИС — так родился автомобильный гигант «Урал». А в 1950-х началась космическая эра: в Машгородке создали ракетное КБ Макеева. Не случайно с 2025 года Миасс носит звание «Город трудовой доблести».</p>
@@ -27,7 +27,7 @@
             </div>
 
             <div class="relative  w-full">
-                <img src="/img/frameTop.png" alt="рамка" class="absolute -top-4 md:-top-6 lg:-top-10 -left- md:-left-4 lg:-left-10 z-20 pointer-events-none w-10 md:w-12 lg:w-auto">
+                <img src="/img/frameTop.png" alt="рамка" class="absolute -top-4 md:-top-6 lg:-top-10 -left-4 md:-left-4 lg:-left-10 z-20 pointer-events-none w-10 md:w-12 lg:w-auto">
                 <div class="relative">
                     <div class="grid grid-cols-[1.2fr_1fr] gap-2 md:gap-3.5">
                         <div class="flex flex-col gap-2 md:gap-3.5">
@@ -43,7 +43,7 @@
                             <img src="/img/6.png" alt="Миасс" class="w-full object-cover">
                         </div>
                     </div>
-                    <img src="/img/frameBot.png"alt="рамка" class="absolute -bottom-3 md:-bottom-1 lg:-bottom-10 -right-4 md:-right-5 lg:-right-10 z-20 pointer-events-none w-10 md:w-12 lg:w-auto">
+                    <img src="/img/frameBot.png"alt="рамка" class="absolute -bottom-1 md:-bottom-2 lg:-bottom-10 -right-4 md:-right-5 lg:-right-10 z-20 pointer-events-none w-10 md:w-12 lg:w-auto">
                 </div>
                 <p class="max-w-full lg:max-w-161.25 text-red font-main font-medium text-base md:text-lg xl:text-xl mt-4 md:mt-5">
                     Бюрократъ — это не просто музей, а интерактивное пространство в историческом центре Миасса.
