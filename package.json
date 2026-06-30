@@ -22,6 +22,7 @@
         "@alpinejs/mask": "^3.15.2",
         "@tailwindcss/postcss": "^4.3.1",
         "bootstrap-icons": "^1.13.1",
+        "embla-carousel": "^8.6.0",
         "flowbite": "^4.0.1"
     }
 }

@@ -94,7 +94,7 @@
         
     </section>
          @include('sections.about-city')
-         @include('sections.about-place')
+         <!-- @include('sections.about-place') -->
          @include('sections.book')
          @include('sections.catalog')
          @include('sections.coffee')
@@ -105,7 +105,11 @@
          @include('sections.reviews')
          @include('sections.show')
 
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> Buivan
     </main>
 
 
