@@ -40,7 +40,7 @@
             <p class="mb-10 mt-[-350px] max-w-[448px] ml-230 text-gray text-xl font-main font-medium">
                Вас ждёт ароматный чай или кофе с десертом в окружении деталей, а также очень удобные советские кресла, которые рассказывают историю Миасса громче любого экскурсовода. Вы просто должны прочувствовать все на себе!
             </p>
-                    <p class=" max-w-[700px] ml-230 text-gray uppercase font-main font-medium leading-[1.2] text-[40px]"> Мы не просто наливаем напитки.Мы даём вам выпить чашку истории.</p>
+                    <p class=" max-w-[700px] ml-230 text-gray uppercase font-main font-medium leading-[1.2] text-[40px]"> Мы не просто наливаем напитки. <span class="text-red">Мы даём вам выпить чашку истории.</span></p>
                 </div>
 
 
