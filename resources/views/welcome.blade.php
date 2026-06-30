@@ -90,13 +90,7 @@
          @include('sections.reviews')
          @include('sections.show')
 
-<<<<<<< HEAD
-    <!-- <p class="text-red-800 text-3xl font-bold line-through">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum quis ex aspernatur tenetur, dolore repellendus, ratione, fugit numquam porro suscipit corrupti natus iusto repellat iure illum cumque atque magni mollitia! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis magni eveniet quas dolorem eius qui accusantium dicta esse sint est unde provident tempore expedita non, explicabo et atque quae doloribus?</p>
-    <img src="img/1.jpg" alt="tiger">
-    <p class="bg-bg text-red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repudiandae possimus dolorum fugit illo rerum illum expedita minus rem quis voluptate iure quam cum, facere blanditiis fuga accusantium odit natus?</p>    -->
-=======
 
->>>>>>> 4f2d2db72a207807e75e82c80d7acb7309685389
     </main>
 
     
