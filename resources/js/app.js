@@ -1,10 +1,10 @@
 import './bootstrap';
-<<<<<<< HEAD
+
 import 'flowbite'; 
 import EmblaCarousel from 'embla-carousel'
-=======
-import 'flowbite';
->>>>>>> 76365c5a3a278eadf97ba7515b1a9c5635685036
+
+
+
 
 import Alpine from 'alpinejs';
 
@@ -13,8 +13,6 @@ window.Alpine = Alpine;
 Alpine.start();
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 // const wrapperNode = document.querySelector('.embla')
 // const viewportNode = wrapperNode.querySelector('.embla__viewport')
 // const prevButtonNode = wrapperNode.querySelector('.embla__prev')
@@ -40,8 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (nextBtn) nextBtn.addEventListener('click', emblaApi.scrollNext);
     }
 });
-=======
-=======
+
 document.addEventListener('DOMContentLoaded', (e) => {
     
     if (document.querySelector('.theater')) {
@@ -61,7 +58,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
     
 });
 
->>>>>>> 76365c5a3a278eadf97ba7515b1a9c5635685036
+
 
 const container = document.getElementById('slider-container');
 const slides = container.children;
@@ -85,8 +82,3 @@ container.parentElement.addEventListener('mouseenter', () => {
 container.parentElement.addEventListener('mouseleave', () => {
   autoplay = setInterval(nextSlide, 3000);
 });
-<<<<<<< HEAD
->>>>>>> 714da30458d3ae4937edac671bb425127b43b5e2
-=======
-
->>>>>>> 76365c5a3a278eadf97ba7515b1a9c5635685036

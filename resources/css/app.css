@@ -29,7 +29,7 @@ font-size: 24px;
   text-align: center;
   color: #3F3F3F;
 
-<<<<<<< HEAD
+
 }
 p{
   font-size: 24px;
@@ -124,7 +124,7 @@ p{
   flex: 0 0 100%;
   min-width: 0;
 }
-=======
+
 @keyframes move-left {
   from{
     transform: translateX(0);
@@ -207,4 +207,4 @@ p{
  animation:move-right 1s  ease-in-out ;
 } */
 
->>>>>>> 76365c5a3a278eadf97ba7515b1a9c5635685036
+
