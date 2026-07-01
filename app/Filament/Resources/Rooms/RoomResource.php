@@ -46,8 +46,15 @@ class RoomResource extends Resource
                     ->label('Название')
                     ->required()
                     ->maxLength(255),
-            FileUpload::make('img_path') // Имя колонки в БД
-                    ->label('Изображение')
+            FileUpload::make('img1_path') // Имя колонки в БД
+                    ->label('Изображение 1')
+                    ->disk('public')
+                    ->image() // Разрешает загрузку только изображений
+                    ->directory('rooms') // Папка в storage/app/public/events
+                    ->imageEditor() // Встроенный редактор (по желанию)
+                    ->maxSize(5120), // Максимальный размер 5 МБ
+            FileUpload::make('img2_path') // Имя колонки в БД
+                    ->label('Изображение 2')
                     ->disk('public')
                     ->image() // Разрешает загрузку только изображений
                     ->directory('rooms') // Папка в storage/app/public/events
@@ -55,6 +62,9 @@ class RoomResource extends Resource
                     ->maxSize(5120), // Максимальный размер 5 МБ
             Textarea::make('description')
                     ->label('Описание')
+                    ->rows(3),
+            Textarea::make('text')
+                    ->label('Текст')
                     ->rows(3),
             DatePicker::make('published_at')
                 ->label('Дата публикации'),

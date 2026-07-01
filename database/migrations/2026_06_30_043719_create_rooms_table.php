@@ -13,9 +13,11 @@ return new class extends Migration
     {
         Schema::create('rooms', function (Blueprint $table) {
             $table->id();
-            $table->string('img_path');
+            $table->string('img1_path');
+            $table->string('img2_path')->nullable();
             $table->string('title');
             $table->text('description')->nullable();
+            $table->text('text')->nullable();
             $table->date('published_at')->nullable();
             $table->boolean('is_active')->default(true);
             $table->timestamps();

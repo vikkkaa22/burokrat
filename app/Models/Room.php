@@ -8,7 +8,9 @@ class Room extends Model
 {
     protected $fillable = [
         'title',
-        'img_path', 
+        'img1_path', 
+        'img2_path',
+        'εσχε',
         'description',
         'published_at',
         'is_active'
