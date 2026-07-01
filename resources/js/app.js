@@ -13,31 +13,6 @@ window.Alpine = Alpine;
 Alpine.start();
 
 
-// const wrapperNode = document.querySelector('.embla')
-// const viewportNode = wrapperNode.querySelector('.embla__viewport')
-// const prevButtonNode = wrapperNode.querySelector('.embla__prev')
-// const nextButtonNode = wrapperNode.querySelector('.embla__next')
-
-// const emblaApi = EmblaCarousel(viewportNode, { loop: false })
-
-// prevButtonNode.addEventListener('click', () => emblaApi.goToPrev(), false)
-// nextButtonNode.addEventListener('click', () => emblaApi.goToNext(), false)
-
-document.addEventListener('DOMContentLoaded', () => {
-    const emblaNode = document.querySelector('#my-carousel');
-    if (emblaNode) {
-        // Опции по умолчанию
-        const options = { loop: true }; 
-        const emblaApi = EmblaCarousel(emblaNode, options);
-
-        // Навешивание событий на кнопки (если они есть)
-        const prevBtn = emblaNode.querySelector('.embla__prev');
-        const nextBtn = emblaNode.querySelector('.embla__next');
-
-        if (prevBtn) prevBtn.addEventListener('click', emblaApi.scrollPrev);
-        if (nextBtn) nextBtn.addEventListener('click', emblaApi.scrollNext);
-    }
-});
 
 document.addEventListener('DOMContentLoaded', (e) => {
     
@@ -59,26 +34,38 @@ document.addEventListener('DOMContentLoaded', (e) => {
 });
 
 
+document.addEventListener('DOMContentLoaded', () => {
+    // Весь блок карусели
+    const emblaNode = document.querySelector('#my-carousel');
 
-const container = document.getElementById('slider-container');
-const slides = container.children;
-const totalSlides = slides.length;
-let currentIndex = 0;
+    if (!emblaNode) return;
 
-function nextSlide() {
-  currentIndex = (currentIndex + 1) % totalSlides;
-  container.style.transform = `translateX(-${currentIndex * 100}%)`;
-}
+    // Viewport (именно его нужно передавать в Embla)
+    const viewport = emblaNode.querySelector('.embla__viewport');
 
-// Запуск интервала (смена каждые 3 секунды)
-let autoplay = setInterval(nextSlide, 3000);
+    // Инициализация
+    const emblaApi = EmblaCarousel(viewport, {
+        loop: true,
+        align: 'start',
+        slidesToScroll: 1,
+        containScroll: 'trimSnaps'
+    });
 
-// Остановка при наведении мыши (опционально)
-container.parentElement.addEventListener('mouseenter', () => {
-  clearInterval(autoplay);
+    // Верхние кнопки
+    const prevBtn = document.querySelector('.prev');
+    const nextBtn = document.querySelector('.next');
+
+    if (prevBtn) {
+        prevBtn.addEventListener('click', () => {
+            emblaApi.scrollPrev();
+        });
+    }
+
+    if (nextBtn) {
+        nextBtn.addEventListener('click', () => {
+            emblaApi.scrollNext();
+        });
+    }
 });
 
-// Возобновление после ухода мыши (опционально)
-container.parentElement.addEventListener('mouseleave', () => {
-  autoplay = setInterval(nextSlide, 3000);
-});
+
