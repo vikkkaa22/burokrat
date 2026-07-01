@@ -46,6 +46,7 @@ class ProductResource extends Resource
                     ->maxLength(255),
             FileUpload::make('img_path') // Имя колонки в БД
                     ->label('Изображение')
+                    ->disk('public')
                     ->image() // Разрешает загрузку только изображений
                     ->directory('products') // Папка в storage/app/public/products
                     ->imageEditor() // Встроенный редактор (по желанию)

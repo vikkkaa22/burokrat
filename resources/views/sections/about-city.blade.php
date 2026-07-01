@@ -43,7 +43,7 @@
                             <img src="/img/6.png" alt="Миасс" class="w-full object-cover">
                         </div>
                     </div>
-                    <img src="/img/frameBot.png"alt="рамка" class="absolute -bottom-1 md:-bottom-2 lg:-bottom-10 -right-4 md:-right-5 lg:-right-10 z-20 pointer-events-none w-10 md:w-12 lg:w-auto">
+                    <img src="/img/frameBot.png"alt="рамка" class="absolute -bottom-2 md:-bottom-2 lg:-bottom-10 -right-4 md:-right-5 lg:-right-10 z-20 pointer-events-none w-10 md:w-12 lg:w-auto">
                 </div>
                 <p class="max-w-full lg:max-w-161.25 text-red font-main font-medium text-base md:text-lg xl:text-xl mt-4 md:mt-5">
                     Бюрократъ — это не просто музей, а интерактивное пространство в историческом центре Миасса.
