@@ -1,76 +1,72 @@
 @import "tailwindcss";
 
-
-
 @theme {
-  --font-title: "EB Garamond", serif;
-  --font-main: "Raleway", sans-serif;
-  --breakpoint-3xl: 120rem;
-  --color-bg: #EFEDE8;
-  --color-white: #EFEDE8;
-  --color-beige: #C9B1AA;
-  --color-gray: #3F3F3F;
-  --color-red: #83372A;
-  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
-  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
-  --color-red_hover: #A67469;
-  /* ... */
+    --font-title: "EB Garamond", serif;
+    --font-main: "Raleway", sans-serif;
+    --breakpoint-3xl: 120rem;
+    --color-bg: #efede8;
+    --color-white: #efede8;
+    --color-beige: #c9b1aa;
+    --color-gray: #3f3f3f;
+    --color-red: #83372a;
+    --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+    --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+    --color-red_hover: #a67469;
+    /* ... */
 }
+
+
 
 @keyframes move-left {
-  from{
-    transform: translateX(0);
-  }
-  to{
-    transform: translateX(-70%);
-  }
-}
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-70%);
+    }
+} */
 
 /* .theater:hover .curtain1 {
   animation-play-state: running;
 } */
 
-.animate1 {
-  animation: move-left 2s 1 both;
-
+/* .animate1 {
+    animation: move-left 2s 1 both;
 }
-
 
 @keyframes move-right {
-  from{
-    transform: translateX(0);
-  }
-  to{
-    transform: translateX(70%);
-  }
-}
-
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(70%);
+    }
+} */
 
 /* .theater:hover .curtain2 {
   animation-play-state: running;
 } */
 
-.animate2 {
-  animation: move-right 2s 1 both;
+/* .animate2 {
+    animation: move-right 2s 1 both;
 }
-
 
 @keyframes hidden-show {
-  from{
-   opacity: 1;
-  }
-  to{
-    opacity: 0;
-  }
-}
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+} */
 
 /* .theater:hover .text-show {
  animation-fill-mode: forwards;
 } */
 
-.animate3 {
- animation: hidden-show 0.3s forwards;
-}
+/* .animate3 {
+    animation: hidden-show 0.3s forwards;
+} */
 
 /* @keyframes move-right {
   from{
@@ -117,3 +113,4 @@
  flex-shrink: 0;
   min-width: 0;
 }
+

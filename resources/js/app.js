@@ -1,11 +1,23 @@
 import './bootstrap';
+
+
+
+
 import 'flowbite'; 
 import EmblaCarousel from 'embla-carousel'
+
+
+
+
 import Alpine from 'alpinejs';
 
 window.Alpine = Alpine;
 
 Alpine.start();
+
+
+
+
 
 
 
@@ -27,6 +39,8 @@ document.addEventListener('DOMContentLoaded', (e) => {
     }
     
 });
+
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -63,5 +77,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-
+// Возобновление после ухода мыши (опционально)
+container.parentElement.addEventListener('mouseleave', () => {
+  autoplay = setInterval(nextSlide, 3000);
+});
 
