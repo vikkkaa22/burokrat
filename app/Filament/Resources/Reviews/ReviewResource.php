@@ -41,6 +41,7 @@ class ReviewResource extends Resource
         ->components([           
             FileUpload::make('img_path') // Имя колонки в БД
                     ->label('Изображение')
+                    ->disk('public')
                     ->image() // Разрешает загрузку только изображений
                     ->directory('reviews') // Папка в storage/app/public/events
                     ->imageEditor() // Встроенный редактор (по желанию)
