@@ -52,9 +52,9 @@
             slides.push({
                 title: rooms[i].title,
                 subtitle: rooms[i].description,
-                text: "Старые парты помнят почерк нескольких поколений. Классная доска ждёт нового слова, написанного мелом. Большой треугольник застыл в углу, как хранитель геометрических тайн. На полках — учебники, тетради, промокашки и целая вселенная коллекций: марки, значки, монеты, открытки. Садись — и ты уже не гость, а ученик прошлого века.",
-                image1: "storage/"+rooms[i].img_path,
-                image2: "img/classroom-2.png"
+                text: rooms[i].text,
+                image1: "storage/"+rooms[i].img1_path,
+                image2: "storage/"+rooms[i].img2_path
             });
         }
         return {

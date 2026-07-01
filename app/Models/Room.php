@@ -10,7 +10,7 @@ class Room extends Model
         'title',
         'img1_path', 
         'img2_path',
-        'εσχε',
+        'text',
         'description',
         'published_at',
         'is_active'
