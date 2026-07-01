@@ -2,12 +2,12 @@
     <div class="max-w-[1440px] mx-auto px-5">
         <div class="relative mb-8 lg:mb-10">
             <div
-                class="absolute top-0 left-0 text-[70px] md:text-[100px] xl:text-[130px] font-bold uppercase text-[#83372A] font-['EB_Garamond'] blur-[6px] opacity-30 pointer-events-none leading-none">
+                class="absolute top-0 left-0 text-[70px] md:text-[100px] xl:text-[130px] font-bold uppercase text-[#83372A] font-main blur-[6px] opacity-30 pointer-events-none leading-none">
                 бюрократъ
             </div>
         </div>
         <h1
-            class="mb-[25px] text-[64px] font-bold text-[#83372A] font-['EB_Garamond']">
+            class="mb-[25px] text-[64px] font-bold text-[#83372A] font-title">
             СОБЫТИЯ И НОВОСТИ
         </h1>
         <div class="flex gap-[10px] mb-[30px]">
@@ -25,14 +25,14 @@
                 <div class="embla__container">
                     <div class="embla__slide">
                         <article
-                            class="flex flex-col items-center w-[438px] h-[596px] border border-[#83372A] mb-[56px]">
+                            class="flex flex-col items-center w-[438px] h-[596px] border border-[#83372A] mb-[56px] font-main">
                             <img
                                 src="img/img1.png"
                                 alt=""
                                 class="w-[398px] h-[471px] pt-5 object-cover"/>
                             <div>
                                 <h3
-                                    class="pt-[29px] text-[24px] text-center text-[#3F3F3F] font-medium">
+                                    class="pt-[29px] text-[24px] text-center text-[#3F3F3F] font-medium ">
                                     Фестиваль «Между домами»
                                 </h3>
                                 <p
@@ -44,7 +44,7 @@
                     </div>
                     <div class="embla__slide">
                         <article
-                            class="flex flex-col items-center w-[438px] h-[596px] border border-[#83372A] mb-[56px]">
+                            class="flex flex-col items-center w-[438px] h-[596px] border border-[#83372A] mb-[56px] font-main">
                             <img
                                 src="img/img2.png"
                                 alt=""
@@ -63,7 +63,7 @@
                     </div>
                     <div class="embla__slide">
                         <article
-                            class="flex flex-col items-center w-[438px] h-[596px] border border-[#83372A] mb-[56px]">
+                            class="flex flex-col items-center w-[438px] h-[596px] border border-[#83372A] mb-[56px] font-main">
                             <img
                                 src="img/img3.png"
                                 alt=""
@@ -83,7 +83,7 @@
                     </div>
                     <div class="embla__slide">
                         <article
-                            class="flex flex-col items-center w-[438px] h-[596px] border border-[#83372A] mb-[56px]">
+                            class="flex flex-col items-center w-[438px] h-[596px] border border-[#83372A] mb-[56px] font-main">
                             <img
                                 src="img/img3.png"
                                 alt=""
@@ -102,7 +102,7 @@
                     </div>
                     <div class="embla__slide">
                         <article
-                            class="flex flex-col items-center w-[438px] h-[596px] border border-[#83372A] mb-[56px]">
+                            class="flex flex-col items-center w-[438px] h-[596px] border border-[#83372A] mb-[56px] font-main">
                             <img
                                 src="img/img3.png"
                                 alt=""
@@ -121,7 +121,7 @@
                     </div>
                     <div class="embla__slide">
                         <article
-                            class="flex flex-col items-center w-[438px] h-[596px] border border-[#83372A] mb-[56px]">
+                            class="flex flex-col items-center w-[438px] h-[596px] border border-[#83372A] mb-[56px] font-main">
                             <img
                                 src="img/img3.png"
                                 alt=""
@@ -143,7 +143,7 @@
             <div class="mt-6 flex justify-start">
                 <a
                     href="#"
-                    class="px-10 py-[14px] rounded-full bg-[#83372A] text-[#E7E5E0] text-[20px] transition duration-300 hover:opacity-90">
+                    class="px-10 py-[14px] rounded-full bg-[#83372A] text-[#E7E5E0] text-[20px] transition duration-300 hover:opacity-90 font-main ">
                     Забронировать
                 </a>
             </div>

@@ -1,11 +1,6 @@
 import './bootstrap';
-
 import 'flowbite'; 
 import EmblaCarousel from 'embla-carousel'
-
-
-
-
 import Alpine from 'alpinejs';
 
 window.Alpine = Alpine;
@@ -67,5 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
 
 
